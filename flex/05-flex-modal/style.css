@@ -18,9 +18,16 @@ body {
 .modal {
   background: white;
   width: 480px;
+  padding: 16px;
+  gap: 16px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display: flex;
+  
+  
 }
+
+
 
 .icon {
   color: royalblue;
@@ -31,8 +38,21 @@ body {
   height: 42px;
   border-radius: 50%;
   display: flex;
+  flex-shrink: 0;
   align-items: center;
   justify-content: center;
+  
+}
+.header {
+  font-weight: bold;
+  font-size: 20px;
+  padding-bottom: 16px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.text {
+  padding-bottom: 16px;
 }
 
 .close-button {
